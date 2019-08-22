@@ -1,3 +1,23 @@
 body{
     background-color: antiquewhite;
 }
+
+.avl{
+    color: lavenderblush;
+    background-color: rgb(58, 52, 52);
+}
+
+.card{
+    border: 1px solid black;
+    margin: 1em;
+    width: 400px;
+}
+
+.card img{
+    width: 400px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
