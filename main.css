@@ -16,6 +16,10 @@ body{
     width: 400px;
 }
 
+#card2{
+    position: relative;
+}
+
 .card header{
     background-color: #455A64;
     border: 1px solid #CFD8DC;
@@ -53,6 +57,12 @@ h4, h5{
 .row{
     display: flex;
     flex-direction: row;
+}
+
+.soldout{
+    position: absolute;
+    top: 125px;
+    left: 50px;
 }
 
 .spec p, .price p{
