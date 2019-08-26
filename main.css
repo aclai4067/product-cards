@@ -1,22 +1,26 @@
-body{
-    background-color: rgb(235, 222, 222);
+.avl{
+    color: #FFC107;
+    background-color: #757575;
+    padding-left: .25em;
 }
 
-.avl{
-    color: yellow;
-    background-color: darkgrey;
+body{
+    background-color: #CFD8DC;
+    font-family: 'Livvic', 'Montserrat', 'san serif';
 }
 
 .card{
     border-radius: 15px;
-    box-shadow: 5px 5px 10px 10px lightgrey;
+    box-shadow: 5px 5px 10px 10px #607D8B;
     margin: 1em;
     width: 400px;
 }
 
 .card header{
-    border: 1px solid lightblue;
+    background-color: #455A64;
+    border: 1px solid #CFD8DC;
     border-radius: 15px 15px 0 0;
+    color: #FFC107;
     text-align: center;
 }
 
@@ -35,7 +39,8 @@ body{
 }
 
 h1{
-    color: rosybrown;
+    color: #455A64;
+    font-family: 'Livvic', 'Montserrat', 'san serif';
     margin-bottom: 1.5em;
     margin-top: 1em;
     text-align: center;
