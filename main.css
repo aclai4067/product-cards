@@ -61,8 +61,7 @@ h4, h5{
 
 .soldout{
     position: absolute;
-    top: 125px;
-    left: 50px;
+    padding: 50px;
 }
 
 .spec p, .price p{
