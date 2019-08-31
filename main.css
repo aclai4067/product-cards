@@ -54,14 +54,18 @@ h4, h5{
     margin: auto auto .25em .5em;
 }
 
-.row{
+.rowContainer{
     display: flex;
+    align-content: space-evenly;
     flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: space-evenly;
 }
 
 .soldout{
     position: absolute;
-    padding: 50px;
+    padding: 12%;
 }
 
 .spec p, .price p{
@@ -73,4 +77,19 @@ h4, h5{
 .spec footer{
     font-size: .6em;
     margin-bottom: .5em;
+}
+
+@media screen and (max-width: 1350px) {
+    
+    .card {
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 1650px) {
+    .rowContainer {
+        margin-left: auto;
+        margin-right: auto; 
+        width: 1650px;
+    }
 }
