@@ -5,7 +5,7 @@
 Use application to view phone case options with spec. A lable will be applied to indicate inventory that is sold out. 
 
 ## ScreenShots
-![product card screenshot]()
+![product card screenshot](https://raw.githubusercontent.com/aclai4067/product-cards/master/screenshots/product-card-main-view.png)
 
 ## How to run
 * Clone down this project from [GitHub](https://github.com/aclai4067/product-cards)
